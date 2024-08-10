@@ -25,9 +25,8 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-html {
-  overflow-x: hidden;
-}
+
+html,
 body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
@@ -483,6 +482,11 @@ nav ul li a {
   }
 }
 @media screen and (max-width: 640px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
   /* hero */
   .container {
     width: 90%;
